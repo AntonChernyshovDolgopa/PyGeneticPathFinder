@@ -7,7 +7,7 @@ from pygame.locals import *
 
 
 condicionado=0  #1 es con inicio y final establecidos, 0 libres
-Print " Once the map has been loaded left-click on a location to visit it"
+print " Once the map has been loaded left-click on a location to visit it"
 ciudades=int(raw_input('How many place do you wanna visit?: ') )
 
 def load_image(filename, transparent=False):
